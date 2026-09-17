@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metadata Dasar SEO -->
+    <title>Toni — Web Developer &amp; Tech Enthusiast</title>
+    <meta name="title" content="Toni — Web Developer &amp; Tech Enthusiast">
+    <meta name="description" content="Portofolio resmi, proyek web interaktif, dan kanal media sosial Toni.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Protocol -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://domainkamu.com/">
+    <meta property="og:title" content="Toni — Web Developer &amp; Tech Enthusiast">
+    <meta property="og:description" content="Portofolio resmi, proyek web interaktif, dan kanal media sosial Toni.">
+    <meta property="og:image" content="https://domainkamu.com/assets/images/og-banner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Toni — Web Developer &amp; Tech Enthusiast">
+    <meta name="twitter:description" content="Portofolio resmi, proyek web interaktif, dan kanal media sosial Toni.">
+    <meta name="twitter:image" content="https://domainkamu.com/assets/images/og-banner.jpg">
+
+    <link rel="icon" href="https://domainkamu.com/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- Ambient Floating Orbs -->
+    <div class="ambient-blob blob-1" aria-hidden="true"></div>
+    <div class="ambient-blob blob-2" aria-hidden="true"></div>
+    <div class="ambient-blob blob-3" aria-hidden="true"></div>
+
+    <div class="container" id="main-card">
+        <!-- Tombol Pengalih Tema -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Ganti tema warna">🌓</button>
+
+        <!-- KOLOM KIRI: Identitas, Keahlian & Metrik -->
+        <header class="profile">
+            <img src="assets/Gemini_Generated_Image_1s0w8w1s0w8w1s0w.jfif" alt="Foto Profil Toni" class="avatar">
+
+            <div class="status-pill">
+                <span class="pulse-dot"></span>
+                <span>Open for Projects &amp; Collaborations</span>
+            </div>
+
+            <h1 class="name">@nt_town</h1>
+            <p class="bio">Web Developer &amp; Tech Enthusiast. Merancang antarmuka web interaktif, performan, dan
+                responsif.</p>
+
+            <div class="tech-chips" aria-label="Keahlian Teknologi">
+                <span class="chip">JavaScript</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">React</span>
+                <span class="chip">Tailwind CSS</span>
+                <span class="chip">Node.js</span>
+            </div>
+
+            <div class="stats-grid" aria-label="Statistik Pencapaian">
+                <div class="stat-item">
+                    <span class="stat-value">25+</span>
+                    <span class="stat-label">Proyek</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">15+</span>
+                    <span class="stat-label">Template</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">99%</span>
+                    <span class="stat-label">Kepuasan</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- KOLOM KANAN: Workspace Canvas -->
+        <main>
+            <!-- 1. Spotlight Card Proyek Utama -->
+            <section class="spotlight-section">
+                <div class="spotlight-card">
+                    <div class="spotlight-badge">⭐ Proyek Unggulan</div>
+                    <h2 class="spotlight-title">Interactive 3D Web Portfolio</h2>
+                    <p class="spotlight-desc">Showcase visual web interaktif memanfaatkan Three.js, pencahayaan
+                        prosedural, dan tata letak modern.</p>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="spotlight-cta"
+                        data-id="spotlight-portfolio">
+                        <span>Eksplorasi Proyek</span>
+                        <span class="cta-arrow">→</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 2. Wadah Navigasi Link Dinamis -->
+            <nav class="links" id="links-container" aria-label="Daftar tautan utama"></nav>
+
+            <!-- 3. Galeri Showcase 12 Website (Header di Atas Gambar + Scroll Internal) -->
+            <section class="bento-row gallery-scroll" aria-label="Galeri Showcase Template Website">
+
+                <!-- Baris 1 -->
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Toko Online</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-ecommerce">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80"
+                            alt="Website Toko Online Modern" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Company Profile</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-compro">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&auto=format&fit=crop&q=80"
+                            alt="Website Company Profile" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">SaaS Dashboard</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-dashboard">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80"
+                            alt="Dashboard Analytics Web" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Baris 2 -->
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Creative Portfolio</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-portfolio">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=80"
+                            alt="Portfolio Creative Studio" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Kafe &amp; Resto POS</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-resto">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&auto=format&fit=crop&q=80"
+                            alt="Website Kafe &amp; Restoran" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Real Estate Hub</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-realestate">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format&fit=crop&q=80"
+                            alt="Website Properti &amp; Real Estate" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Baris 3 -->
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">E-Learning LMS</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-lms">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&auto=format&fit=crop&q=80"
+                            alt="Platform Kursus Online" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Travel &amp; Tour</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-travel">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&auto=format&fit=crop&q=80"
+                            alt="Portal Travel &amp; Tour Booking" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">FinTech Banking</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-fintech">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=600&auto=format&fit=crop&q=80"
+                            alt="FinTech App Landing" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Baris 4 -->
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Media &amp; Tech Blog</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-blog">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&auto=format&fit=crop&q=80"
+                            alt="Portal Media &amp; Berita" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Event &amp; Seminar</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-event">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&auto=format&fit=crop&q=80"
+                            alt="Website Konferensi &amp; Event" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <!-- Label & Tombol diposisikan di atas gambar -->
+                    <div class="gallery-card-header">
+                        <span class="gallery-label">Startup Agency</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-view"
+                            data-id="project-agency">Lihat</a>
+                    </div>
+                    <div class="gallery-img-box">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&auto=format&fit=crop&q=80"
+                            alt="Landing Page Startup" class="gallery-img" loading="lazy">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- 4. Widget Pemutar Musik Lo-Fi Beats & Sound Mixer -->
+      <section class="music-card" id="music-widget">
+        <!-- Header Pemutar -->
+        <div class="music-header">
+          <div class="music-info">
+            <button id="btn-music-toggle" class="music-play-btn" aria-label="Putar musik Lo-Fi">
+              <span id="music-play-icon">▶</span>
+            </button>
+            <div class="music-text">
+              <div class="music-title">Coding Focus • Lo-Fi Generator</div>
+              <div class="music-sub" id="music-status-text">Klik untuk memutar synth &amp; ambience</div>
+            </div>
+          </div>
+
+          <!-- Equalizer Animasi -->
+          <div class="equalizer" aria-hidden="true">
+            <span class="eq-bar bar-1"></span>
+            <span class="eq-bar bar-2"></span>
+            <span class="eq-bar bar-3"></span>
+            <span class="eq-bar bar-4"></span>
+          </div>
+        </div>
+
+        <!-- Mixer Kontrol Audio (4 Sliders) -->
+        <div class="mixer-deck">
+          <!-- 1. Master Volume -->
+          <div class="control-group">
+            <div class="control-header">
+              <label for="master-vol" class="control-label">🔊 Master Vol</label>
+              <span class="control-value" id="val-master">70%</span>
+            </div>
+            <input type="range" id="master-vol" class="range-slider" min="0" max="1" step="0.01" value="0.7">
+          </div>
+
+          <!-- 2. Rain Volume -->
+          <div class="control-group">
+            <div class="control-header">
+              <label for="rain-vol" class="control-label">🌧️ Rain Ambience</label>
+              <span class="control-value" id="val-rain">30%</span>
+            </div>
+            <input type="range" id="rain-vol" class="range-slider" min="0" max="1" step="0.01" value="0.3">
+          </div>
+
+          <!-- 3. Vinyl Crackle Volume -->
+          <div class="control-group">
+            <div class="control-header">
+              <label for="vinyl-vol" class="control-label">📻 Vinyl Crackle</label>
+              <span class="control-value" id="val-vinyl">25%</span>
+            </div>
+            <input type="range" id="vinyl-vol" class="range-slider" min="0" max="1" step="0.01" value="0.25">
+          </div>
+
+          <!-- 4. Filter Frequency (Low-Pass Cutoff) -->
+          <div class="control-group">
+            <div class="control-header">
+              <label for="filter-freq" class="control-label">🎛️ Filter Freq</label>
+              <span class="control-value" id="val-filter">900 Hz</span>
+            </div>
+            <input type="range" id="filter-freq" class="range-slider" min="300" max="3000" step="50" value="900">
+          </div>
+        </div>
+      </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 Toni. All rights reserved. | Dibuat dengan HTML, CSS, dan JS Murni.</p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification Feedback -->
+    <div id="toast" class="toast" role="status" aria-live="polite">
+        <span class="toast-icon">✨</span>
+        <span id="toast-text">Email berhasil disalin ke clipboard!</span>
+    </div>
+</body>
+
+</html>
