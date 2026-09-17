@@ -1,3 +1,4 @@
+<img width="1921" height="1014" alt="Toni-—-Web-Developer-Tech-Enthusiast-09-17-2026_10_55_PM" src="https://github.com/user-attachments/assets/c8119fa0-af6f-4c34-8ec1-e308996592a2" />
 # ⚡ @nt_town — Interactive Bento Link-in-Bio & Audio Cockpit
 
 Website portofolio interaktif *Link-in-Bio* dengan tata letak *Full-Screen Bento Grid*, estetika *Glassmorphism*, dan generator audio prosedural berbasis Web Audio API murni tanpa ketergantungan pustaka eksternal (*zero external dependencies*).
